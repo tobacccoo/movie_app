@@ -1,0 +1,15 @@
+.loading-icon {
+    color: #2c3254;
+    font-size: 2rem;
+    animation: animate 2s infinite;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(720deg);
+    }
+  }
+  
